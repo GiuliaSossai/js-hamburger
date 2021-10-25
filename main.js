@@ -11,6 +11,8 @@ hambIcon.addEventListener("click", function(){
 });
 
 closeIcon.addEventListener("click", function(){
+  const hamburger = document.querySelector(".hamburger-menu");
+  //posso dichiarare una seconda volta la stessa costante solo dentro la funzione!! 
   hamburger.classList.remove('active');
 
   console.log('ho cliccato x');
